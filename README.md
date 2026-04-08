@@ -1,39 +1,31 @@
-# Music Player Web App
-A fully interactive music player built as part of the **CodeAlpha Frontend Development Internship**.
+# Image Gallery
+
+This project is the final task for my online internship with **CodeAlpha**. It demonstrates a responsive image gallery with category filters, smooth transitions, and a lightbox view.
+
+## Features
+- Categorized images by **Red**, **Blue**, and **Green**
+- Filter buttons to show images by color or all at once
+- Hover effects with smooth zoom and brightness transitions
+- Responsive layout for mobile, tablet, and desktop
+- Lightbox view with **next/prev navigation**
+- Optional bonus: easy to extend with more categories or filters
+
+## Technologies Used
+- **HTML5** for structure
+- **CSS3** for layout, hover effects, and transitions
+- **JavaScript** for filtering and lightbox navigation
+
+## Usage
+1. Clone the repository or download the files.
+2. Open `index.html` in your browser.
+3. Click on filter buttons to view specific color categories.
+4. Click on any image to open the lightbox, then navigate using **Next** and **Prev**.
+
+## Gallery Images
+- Red: Spider-Man, Red Lace Pattern, Blackjack, Red Dice
+- Blue: Painted Swirl, Fireworks, Jellyfish, Macarons
+- Green: Porsche, Matcha with Ice, Grapes, Kiwi
 
 ---
-## 🛠️ Technologies Used
-- **HTML** – Structure of the music player and controls 
-- **CSS** – Styling, layout, and responsive design 
-- **JavaScript** – Audio control, progress bar, volume control, and playlist management 
----
-## 💡 Features
-- Play, pause, skip, and previous controls 
-- Display song metadata: title, artist, and duration 
-- Progress bar with draggable seek 
-- Volume control slider 
-- **Bonus features** (optional):
- - Playlist display 
- - Autoplay next track 
----
-## 🚀 How to Run
-1. Clone the repository:
- ```bash
- git clone https://github.com/AtleNxumalo/CodeAlpha_Music-Player.git
-```
-2. Open index.html in your browser.
-3. Play your favorite tracks and control audio easily! 
 
-📸 Screenshots + Video
-[!screenshot](photo-1.png)
-[!screenshot](photo-2.png)
-[!screenshot](photo-3.png)
-[!screenshot](video-1.mp4)
-
-
-📌 Notes
-*  Audio files can be locally stored or linked externally 
-*  Designed for desktop and mobile browsers 
-*  Playlist and autoplay features are optional for enhanced functionality
-
-
+This project demonstrates my ability to combine HTML, CSS, and JavaScript for an interactive, visually appealing UI.
