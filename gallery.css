@@ -1,13 +1,26 @@
+/* =========================
+   GLOBAL / BASE STYLES
+========================= */
+
 /* Default background for 'All' */
 body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #f0f0f5, #d9e2f3);
-    /* soft neutral */
-    transition: background 0.6s ease;
-    /* smooth transition when it changes */
+    background: linear-gradient(135deg, #f0f0f5, #d9e2f3); /* soft neutral */
+    transition: background 0.6s ease; /* smooth transition when it changes */
     color: #333;
 }
+
+h1 {
+    text-align: center;
+    margin: 30px 0;
+    color: #444;
+}
+
+
+/* =========================
+   THEME BACKGROUNDS
+========================= */
 
 /* Gradients per category */
 body.red-theme {
@@ -26,11 +39,10 @@ body.orange-theme {
     background: linear-gradient(135deg, #ffe5b4, #ff8c42);
 }
 
-h1 {
-    text-align: center;
-    margin: 30px 0;
-    color: #444;
-}
+
+/* =========================
+   FILTER BUTTONS
+========================= */
 
 .filter-buttons {
     text-align: center;
@@ -54,12 +66,22 @@ h1 {
     background-color: #eee;
 }
 
+
+/* =========================
+   GALLERY GRID
+========================= */
+
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 15px;
     padding: 0 20px 50px;
 }
+
+
+/* =========================
+   GALLERY ITEMS
+========================= */
 
 .gallery-item {
     position: relative;
@@ -82,7 +104,11 @@ h1 {
     filter: brightness(1.2);
 }
 
-/* Lightbox */
+
+/* =========================
+   LIGHTBOX
+========================= */
+
 .lightbox {
     position: fixed;
     top: 0;
@@ -129,7 +155,11 @@ h1 {
     background: #ddd;
 }
 
-/* Responsive */
+
+/* =========================
+   RESPONSIVE DESIGN
+========================= */
+
 @media (max-width: 600px) {
     .gallery {
         grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
