@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="gallery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <h1>Image Gallery</h1>
+
+    <div class="filter-buttons">
+        <button class="active" data-color="all">All</button>
+        <button data-color="red">Red</button>
+        <button data-color="blue">Blue</button>
+        <button data-color="green">Green</button>
+        <button data-color="orange">Orange</button>
+    </div>
+
+    <div class="gallery">
+        <!-- RED -->
+        <div class="gallery-item" data-color="red" data-alt="spider-man">
+            <img src="https://i.pinimg.com/1200x/f4/d2/ba/f4d2ba04f9c8af5a60bbce025b454139.jpg" alt="spider-man">
+        </div>
+        <div class="gallery-item" data-color="red" data-alt="red lace pattern">
+            <img src="https://i.pinimg.com/736x/c1/5e/c1/c15ec164a80130c7b68fd41e6a01f392.jpg" alt="red lace pattern">
+        </div>
+        <div class="gallery-item" data-color="red" data-alt="blackjack">
+            <img src="https://i.pinimg.com/736x/63/46/6f/63466f427b0253f28bd4c6fa19dda166.jpg" alt="blackjack">
+        </div>
+        <div class="gallery-item" data-color="red" data-alt="red dice">
+            <img src="https://i.pinimg.com/736x/97/70/cd/9770cdd4025bbb884d621b3fbfabea40.jpg" alt="red dice">
+        </div>
+
+        <!-- BLUE -->
+        <div class="gallery-item" data-color="blue" data-alt="painted swirl">
+            <img src="https://i.pinimg.com/736x/70/71/67/7071674939771b743b820e0edeb0324d.jpg" alt="painted swirl">
+        </div>
+        <div class="gallery-item" data-color="blue" data-alt="fireworks">
+            <img src="https://i.pinimg.com/736x/f4/0b/36/f40b364c2bc3be229e268a7a69b99174.jpg" alt="fireworks">
+        </div>
+        <div class="gallery-item" data-color="blue" data-alt="jellyfish">
+            <img src="https://i.pinimg.com/736x/9a/23/24/9a23245f0b5858abdc37d60a439f1c0e.jpg" alt="jellyfish">
+        </div>
+        <div class="gallery-item" data-color="blue" data-alt="macarons">
+            <img src="https://i.pinimg.com/736x/97/a9/5e/97a95e76157aa4b2c55002419dc26dee.jpg" alt="macarons">
+        </div>
+
+        <!-- GREEN -->
+        <div class="gallery-item" data-color="green" data-alt="porsche">
+            <img src="https://i.pinimg.com/736x/22/c5/2f/22c52fc2666579bd935d3e3fad512499.jpg" alt="porsche">
+        </div>
+        <div class="gallery-item" data-color="green" data-alt="matcha with ice">
+            <img src="https://i.pinimg.com/736x/0c/f9/a4/0cf9a49c6be341ef1aa163ab09443e06.jpg" alt="matcha with ice">
+        </div>
+        <div class="gallery-item" data-color="green" data-alt="grapes">
+            <img src="https://i.pinimg.com/1200x/f6/37/67/f637670639347fa4f604745304ded1f6.jpg" alt="grapes">
+        </div>
+        <div class="gallery-item" data-color="green" data-alt="kiwi">
+            <img src="https://i.pinimg.com/736x/f7/7f/65/f77f659f5d20a6e8a972e2d376800cc4.jpg" alt="kiwi inside">
+        </div>
+
+        <!-- ORANGE -->
+        <div class="gallery-item" data-color="orange" data-alt="porsche">
+            <img src="https://i.pinimg.com/736x/e6/4a/6f/e64a6f7d15fb6c81112341e38e64d9ee.jpg" alt="Chinese lantern">
+        </div>
+        <div class="gallery-item" data-color="orange" data-alt="matcha with ice">
+            <img src="https://i.pinimg.com/1200x/6c/91/d6/6c91d62f55eec9138e7700712d414ab2.jpg" alt="bass guitar">
+        </div>
+        <div class="gallery-item" data-color="orange" data-alt="grapes">
+            <img src="https://i.pinimg.com/736x/a1/9f/00/a19f00d8eeb84882e52ea18242610218.jpg"
+                alt="vintage penguin books">
+        </div>
+        <div class="gallery-item" data-color="orange" data-alt="kiwi inside">
+            <img src="https://i.pinimg.com/736x/d1/2b/ac/d12bac5478a077b58ae6e72b0f3522d6.jpg" alt="Olympia typewriter">
+        </div>
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox">
+        <img src="" alt="">
+        <div class="caption"></div>
+        <div class="nav-buttons">
+            <button id="prevBtn">Prev</button>
+            <button id="nextBtn">Next</button>
+            <button id="closeBtn">Close</button>
+        </div>
+    </div>
+    <script src="gallery.js"></script>
+</body>
+
+</html>
